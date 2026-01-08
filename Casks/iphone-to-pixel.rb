@@ -7,5 +7,5 @@ cask "iphone-to-pixel" do
   desc "Convert iOS media files for Pixel compatibility"
   homepage "https://github.com/nikitadrokin/iphone-to-pixel"
 
-  app "iphone-to-pixel.app"
+  app "iPhone to Pixel.app"
 end
