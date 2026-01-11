@@ -8,7 +8,6 @@ cask "iphone-to-pixel" do
   homepage "https://github.com/nikitadrokin/iphone-to-pixel"
 
   app "iPhone to Pixel.app"
-  # TODO: Add binary stanzas once we confirm the correct path
-  # binary "#{appdir}/iPhone to Pixel.app/Contents/MacOS/itp-aarch64-apple-darwin", target: "iphone-to-pixel"
-  # binary "#{appdir}/iPhone to Pixel.app/Contents/MacOS/itp-aarch64-apple-darwin", target: "itp"
+  binary "#{appdir}/iPhone to Pixel.app/Contents/MacOS/itp", target: "iphone-to-pixel"
+  binary "#{appdir}/iPhone to Pixel.app/Contents/MacOS/itp", target: "itp"
 end
