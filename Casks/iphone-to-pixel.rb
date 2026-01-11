@@ -1,6 +1,6 @@
 cask "iphone-to-pixel" do
-  version "0.0.5"
-  sha256 "aaa4eaaa247d09e9e8c8e97db25318ea5207c6c07ff009291d45e82a0e65abe5"
+  version "0.0.6"
+  sha256 "8dd5fc002bc91202805f4ab8d603e62314b162621829066e5c6cbb9c53fd713b"
 
   url "https://github.com/nikitadrokin/iphone-to-pixel/releases/download/v#{version}/iPhone.to.Pixel_#{version}_aarch64.dmg"
   name "iPhone to Pixel"
