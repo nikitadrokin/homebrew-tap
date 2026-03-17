@@ -8,6 +8,5 @@ cask "iphone-to-pixel" do
   homepage "https://github.com/nikitadrokin/iphone-to-pixel"
 
   app "iPhone to Pixel.app"
-  binary "#{appdir}/iPhone to Pixel.app/Contents/MacOS/itp", target: "iphone-to-pixel"
   binary "#{appdir}/iPhone to Pixel.app/Contents/MacOS/itp", target: "itp"
 end
