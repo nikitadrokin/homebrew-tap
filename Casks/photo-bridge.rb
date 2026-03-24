@@ -1,6 +1,6 @@
 cask "photo-bridge" do
-  version "0.0.11"
-  sha256 "291c616a8dca4d119d27ed932722be9501059d052f7c222a0196351d0d675e3f"
+  version "0.0.12"
+  sha256 "8444f60e649c114f343128c32a4ddc3d5e620428aea2ccf9cf0903965defb4ef"
 
   url "https://github.com/nikitadrokin/photo-bridge/releases/download/v#{version}/PhotoBridge_#{version}_aarch64.dmg"
   name "PhotoBridge"
