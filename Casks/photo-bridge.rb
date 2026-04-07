@@ -7,6 +7,10 @@ cask "photo-bridge" do
   desc "Convert iOS media files for Pixel compatibility"
   homepage "https://github.com/nikitadrokin/photo-bridge"
 
+  depends_on formula: "exiftool"
+  depends_on formula: "ffmpeg"
+  depends_on formula: "android-platform-tools"
+
   app "Photo Bridge.app"
   binary "#{appdir}/Photo Bridge.app/Contents/MacOS/pb", target: "pb"
 end
