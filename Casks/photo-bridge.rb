@@ -9,7 +9,7 @@ cask "photo-bridge" do
 
   depends_on formula: "exiftool"
   depends_on formula: "ffmpeg"
-  depends_on formula: "android-platform-tools"
+  depends_on cask: "android-platform-tools"
 
   app "Photo Bridge.app"
   binary "#{appdir}/Photo Bridge.app/Contents/MacOS/pb", target: "pb"
