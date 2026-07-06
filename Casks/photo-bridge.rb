@@ -6,6 +6,7 @@ cask "photo-bridge" do
   name "Photo Bridge"
   desc "Convert iOS media files for Pixel compatibility"
   homepage "https://github.com/nikitadrokin/photo-bridge"
+  auto_updates true
 
   depends_on formula: "exiftool"
   depends_on formula: "ffmpeg"
